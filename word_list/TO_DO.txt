@@ -1,0 +1,49 @@
+Maybe try Aaron's alphabet idea
+
+By implementing these, I no longer need to store a list of all yellow and green letters
+I can still print a list of black letters so the player can obviously see what not to use like in Wordle
+Or I could not, lul
+
+***
+Try making a dict or tuple that stores the guess as well as if it's valid or not
+***
+
+###########################
+LOGIC IS STILL KINDA BROKEN:
+Attempt:  3
+Enter your guess here: spend
+A L P H A 
+P E E L S
+S P E N D
+_ _ _ _ _
+_ _ _ _ _
+_ _ _ _ _
+
+Attempt:  4
+Enter your guess here: spews
+A L P H A 
+P E E L S
+S P E N D
+S(gr) P E W S(ye)
+_ _ _ _ _
+_ _ _ _ _
+###########################
+
+________________________________________________________________________
+
+XXX Add support for black letters (letters that aren't in word)
+
+XXX Sort into fucntions to clean up code
+
+XXX Add word bank and randomize word each time
+
+XXX Format output each round just like Wordle with 6 rows
+
+XXX NEED LIST OF ACCEPTABLE WORDS AS WELL AS LIST OF ANSWERS
+    ACCEPTABLE WORDS DO NOT HAVE TO BE AN ANSWER, BUT EVERY
+    ANSWER NEEDS TO BE AN ACCEPTABLE WORD
+
+XXX Increase amount of words in word bank
+
+XXX Store position and value of each letter in a certain attempt
+Output the attempt with letters in respective spaces with respective colors by replacing the respective list within a list for the respective round
